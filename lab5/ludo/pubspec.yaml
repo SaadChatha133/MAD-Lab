@@ -1,0 +1,26 @@
+name: ludo
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  assets:
+   - assets/images/dice_1.png
+   - assets/images/dice_2.png
+   - assets/images/dice_3.png
+   - assets/images/dice_4.png
+   - assets/images/dice_5.png
+   - assets/images/dice_6.png
+  uses-material-design: true
